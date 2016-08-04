@@ -1,0 +1,52 @@
+@import "bubbles.css";
+@import "sidebar.css";
+
+body{
+  background: #F0F1F5;
+  font-family: Open-sans, sans-serif;
+}
+
+.row{
+  border: 0px;
+  padding: 5px;
+  background: none;
+}
+
+.wrapper-green{
+  background: #009688;
+  height: 100px;
+}
+
+#chatroom{
+  margin-top: -140px;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  background: #EDE9E4;
+}
+
+.date{
+  color: #b3b3b3;
+}
+
+#messages{
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid lightgrey;
+}
+
+.glyphicon.spinning {
+    font-size: 8em;
+    /*color: white;*/
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
